@@ -23,8 +23,8 @@ Pessoa.prototype.nadar = function () {
 };
 
 const guilherme = new Pessoa('Guilherme', 25);
-// console.log(Pessoa.prototype);
-// console.log(guilherme.prototype);
+console.log(Pessoa.prototype);
+console.log(guilherme.prototype);
 
 const pais = 'Brasil';
 const cidade = new String('Campinas');

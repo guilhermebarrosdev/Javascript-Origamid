@@ -46,5 +46,5 @@ function Dom(seletor) {
 const listaItens = new Dom('li');
 const ul = new Dom('ul');
 
-// listaItens.addClass('ativar');
-// ul.addClass('ativar-ul');
+listaItens.addClass('ativar');
+ul.addClass('ativar-ul');
