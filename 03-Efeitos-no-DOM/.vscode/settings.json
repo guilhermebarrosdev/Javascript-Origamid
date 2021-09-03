@@ -5,8 +5,13 @@
     "deos",
     "descricao",
     "direcao",
+    "horario",
+    "Invertal",
+    "Numeros",
+    "resetar",
     "tabcontent",
     "tabmenu",
+    "tabnav",
     "vulp",
     "vulpídeos"
   ]
