@@ -1,0 +1,19 @@
+{
+  "name": "01-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production ./js/script.js --output-path main.js",
+    "dev": "webpack --mode development --watch ./js/script.js --output-path main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "build": "webpack --mode=production webpack.config.js",
+    "start": "webpack-dev-server --mode=development webpack.config.js"
+  }
+}
